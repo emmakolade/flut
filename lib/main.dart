@@ -5,10 +5,7 @@ import 'package:myapp/gradient_container.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Scaffold(
-        body: GradientCotainer()
-      ),
+      home: Scaffold(body: GradientCotainer(Colors.black, Colors.black38)),
     ),
   );
 }
-
