@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/gradient_container.dart';
+import 'package:myapp/quiz.dart';
 
+// 'dart:async'
 // import 'dart:async';
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(body: GradientCotainer(Colors.black, Colors.black38)),
-    ),
-  );
+  runApp(const Quiz());
 }
